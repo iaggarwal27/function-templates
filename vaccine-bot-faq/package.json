@@ -1,0 +1,7 @@
+{
+  "name": "vaccine-bot-faq",
+  "dependencies": {
+    "@google-cloud/dialogflow": "^3.5.0",
+    "twilio": "^3.62.0"
+  }
+}

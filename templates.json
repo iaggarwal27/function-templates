@@ -249,6 +249,11 @@
       "id": "google-sheets",
       "name": "Google Sheets SMS Log",
       "description": "Logs incoming SMS numbers and messages into a Google Sheets table"
+    },
+    {
+      "id": "vaccine-bot-faq",
+      "name": "Vaccine Bot FAQ ",
+      "description": "Vaccine Bot answers frequently asked questions related to COVID-19 vaccines"
     }
   ]
 }
