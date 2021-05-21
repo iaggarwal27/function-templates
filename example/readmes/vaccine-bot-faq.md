@@ -2,11 +2,11 @@
 
 This app is designed to address COVID-19 vaccine hesitancy among consumers and answer their vaccine-related questions.Consumers send their questions through SMS to a pre-configured phone number, and are responded by FAQ chatbot which leverages official sources(CDC, WHO) for answers and is powered by a Twilio Studio Flow.
 
-Note that this app is designed for prototyping purposes only and you should <a href="https://ahoy.twilio.com/vaccine-distribution-1" target="_blank">consult with a Twilio Expert</a> before publicly offering this service in a production context.
+Note that this app is designed for prototyping purposes only and you should<br/><a href="https://ahoy.twilio.com/vaccine-distribution-1" target="_blank">consult with a Twilio Expert</a> before publicly offering this service in a production context.
 
 ## Pre-requisites
 
-To use this app, you will need to setup a Google Dialogflow project (https://cloud.google.com/dialogflow/cx/docs/quick/setup#project). Enable Billing, Dialogflow API, and then create a service account and generate an authentication key. See the Google documentation on [creating a service account](https://cloud.google.com/iam/docs/creating-managing-service-accounts#creating) and [generating an authentication key](https://cloud.google.com/iam/docs/creating-managing-service-account-keys#creating_service_account_keys) for details. Ensure that your authentication key is in JSON format, and that it is saved to a file named `service-account-key.private.json` under the `assets` directory for this function.
+To use this app, you will need to setup a Google Dialogflow project (https://cloud.google.com/dialogflow/cx/docs/quick/setup#project). Enable Billing, Dialogflow API, and then create a service account and generate an authentication key. See the Google documentation on [creating a service account](https://cloud.google.com/iam/docs/creating-managing-service-accounts#creating) and [generating an authentication key](https://cloud.google.com/iam/docs/creating-managing-service-account-keys#creating_service_account_keys) for details. Ensure that your authentication key is in JSON format, and that it is saved to a file named `service-account-key.json` under the `assets` directory for this function.
 
 ### Environment variables
 
@@ -33,7 +33,7 @@ twilio plugins:install @twilio-labs/plugin-serverless
 3. Initiate a new project
 
 ```
-twilio serverless:init example --template=vaccine-bot-faq && cd example
+twilio serverless:init example --template=vaccine-standby && cd example
 ```
 
 4. Start the server with the [Twilio CLI](https://www.twilio.com/docs/twilio-cli/quickstart):
